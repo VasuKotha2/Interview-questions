@@ -31,9 +31,9 @@
 
 ### 5. Where are most of the log files located?
 
-#### Linux system Troubleshooting - Part 2
+## Linux system Troubleshooting - Part 2
 
-#### Kernel Parameters - Ulimit
+## Kernel Parameters - Ulimit
 
 ### 6. To improve performance, how can you safely set the limit of processes for the super-user root to be unlimited?
 
