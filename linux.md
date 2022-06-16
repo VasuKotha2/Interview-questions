@@ -24,8 +24,38 @@
     * btmp records only failed login attempts.
           
 ### 2. How to check log messages related to kernel?
+* Simple answer is var/log/kern or var/log/kern.log
+*  Most Important Linux Logs
+* We can group most directories into one of four categories:
+    * Application Logs
+    * Event Logs
+    * Service Logs
+    * System Logs
+* Critical, Must Monitor Logs
+* /var/log/syslog or /var/log/messages: general messages, as well as system-related information. Essentially, this log stores all activity data across the global system. Note that activity for Redhat-based systems, such as CentOS or Rhel, are stored in messages, while Ubuntu and other Debian-based systems are stored in Syslog.
+* /var/log/auth.log or /var/log/secure: store authentication logs, including both successful and failed logins and authentication methods. Again, the system type dictates where authentication logs are stored; Debian/Ubuntu information is stored in /var/log/auth.log, while Redhat/CentrOS is stored in /var/log/secure.
+* /var/log/boot.log: a repository of all information related to booting and any messages logged during startup.
+* /var/log/maillog or var/log/mail.log: stores all logs related to mail servers, useful when you need information about postfix, smtpd, or any email-related services running on your server.
+* /var/log/kern: stores Kernel logs and warning data. This log is valuable for troubleshooting custom kernels as well.
+* /var/log/dmesg: messages relating to device drivers. The command dmesg can be used to view messages in this file.
+* /var/log/faillog: contains information all failed login attempts, which is useful for gaining insights on attempted security breaches, such as those attempting to hack login credentials as well as brute-force attacks.
+* /var/log/cron: stores all Crond-related messages (cron jobs), such as when the cron daemon initiated a job, related failure messages, etc.
+* /var/log/yum.log: if you install packages using the yum command, this log stores all related information, which can be useful in determining whether a package and all components were correctly installed.
+* /var/log/httpd/: a directory containing error_log and access_log files of the Apache httpd daemon. The error_log contains all errors encountered by httpd. These errors include memory issues and other system-related errors. access_log contains a record of all requests received over HTTP.
+* /var/log/mysqld.log or /var/log/mysql.log : MySQL log file that logs all debug, failure and success messages. Contains information about the starting, stopping and restarting of MySQL daemon mysqld. This is another instance where the system dictates the directory; RedHat, CentOS, Fedora, and other RedHat-based systems use /var/log/mysqld.log, while Debian/Ubuntu use the /var/log/mysql.log directory.
 
+* A few other directories and their uses include:
+
+* /var/log/daemon.log: tracks services running in the background that perform important tasks, but has no graphical output
+* /var/log/btmp: recordings of failed login attempts
+* /var/log/utmp: current login state, by user
+* /var/log/wtmp: login/logout history
+* /var/log/lastlog: information about the last logins for all users. This binary file can be read by command lastlog.
+* /var/log/pureftp.log: runs the pureftp process that listens for FTP connections. All connections, FTP logins, and authentication failures get logged here
+* /var/log/spooler: rarely used and often empty. When used, it contains messages from USENET
+* /var/log/xferlog: contains all FTP file transfer sessions, including information about the file name and user initiating FTP transfers
 ### 3. How can you continuously monitor logs as they come in?
+
 
 ### 4. Where can you find messages related to the installation of Linux?
 
