@@ -5,19 +5,19 @@ Linux system Troubleshooting - Part 1
      * last command
      * who command
         * You need to use the who command, to print who is logged on. It also displays the time of last system boot. Use the last command to display system reboot and shutdown date and time, run:
-        `$ who -b`
-        `output: system boot  2017-06-20 17:41`
+        * `$ who -b`
+        * `output: system boot  2017-06-20 17:41`
         * Use the last command to display listing of last logged in users and system last reboot time and date, enter:
-        `$ last reboot | less`
-        `output:`
-        `reboot   system boot  5.13.0-1029-aws  Thu Jun 16 04:50   still running  `
+        * `$ last reboot | less`
+        * `output:`
+        * `reboot   system boot  5.13.0-1029-aws  Thu Jun 16 04:50   still running  `
         Refer the below link for sample output
-        `https://www.cyberciti.biz/tips/wp-content/uploads/2006/04/last-reboot.jpg`
+        * `https://www.cyberciti.biz/tips/wp-content/uploads/2006/04/last-reboot.jpg`
         Or, better try:
-        `$ last reboot | head -1`
-        `sample output: reboot   system boot  4.9.0-3-amd64    Sat Jul 15 19:19   still running` 
+        * `$ last reboot | head -1`
+        * `sample output: reboot   system boot  4.9.0-3-amd64    Sat Jul 15 19:19   still running` 
         For more info
-         `https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html`
+        * `https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html`
     * The last command searches back through the file `/var/log/wtmp` and displays a list of all users logged in (and out) since that file was created. 
     * utmp will give you complete picture of users logins at which terminals, logouts, system events and current status of the      system, system boot time (used by uptime) etc.
     * wtmp gives historical data of utmp.
