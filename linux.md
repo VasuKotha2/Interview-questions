@@ -23,31 +23,31 @@ Linux system Troubleshooting - Part 1
     * wtmp gives historical data of utmp.
     * btmp records only failed login attempts.
           
-2. How to check log messages related to kernel?
+### 2. How to check log messages related to kernel?
 
-3- How can you continuously monitor logs as they come in?
+### 3. How can you continuously monitor logs as they come in?
 
-4- Where can you find messages related to the installation of Linux?
+### 4. Where can you find messages related to the installation of Linux?
 
-5- Where are most of the log files located?
+### 5. Where are most of the log files located?
 
-Linux system Troubleshooting - Part 2
+#### Linux system Troubleshooting - Part 2
 
-Kernel Parameters - Ulimit
+#### Kernel Parameters - Ulimit
 
-6- To improve performance, how can you safely set the limit of processes for the super-user root to be unlimited?
+### 6. To improve performance, how can you safely set the limit of processes for the super-user root to be unlimited?
 
-7- Where can you set the resource limits for users logged in via PAM?
+### 7. Where can you set the resource limits for users logged in via PAM?
 
-8- How to check ulimit for a user?
+### 8. How to check ulimit for a user?
 
-9- How to check and increase the limit of opened files in Linux?
+### 9- How to check and increase the limit of opened files in Linux?
 
-10- How to view run time kernel parameters?
+### 10- How to view run time kernel parameters?
 
-11- How to change runtime kernel parameter for maximum shared segment size in bytes?
+### 11- How to change runtime kernel parameter for maximum shared segment size in bytes?
 
-12- How to view Boot time parameters and which file is modified to change these parameters?
+### 12- How to view Boot time parameters and which file is modified to change these parameters?
 
 
 
@@ -55,258 +55,247 @@ Linux system Troubleshooting - Part 3
 
 Troubleshooting with uptime lsof pidof sar and more
 
-13- How to check system load without top command?
+### 13- How to check system load without top command?
 
-14- By default load average is shown in how many intervals?
+### 14- By default load average is shown in how many intervals?
 
-15- How can you get the physical and virtual memory statistics?
+### 15- How can you get the physical and virtual memory statistics?
 
-16- How to check cpu utilization and other statistics?
+### 16- How to check cpu utilization and other statistics?
 
-17- How to find process id of a process and kill it immediatley?
+### 17- How to find process id of a process and kill it immediatley?
 
-18- How to list all open files by specified user?
+### 18- How to list all open files by specified user?
 
-19- How to list all open files by specified command?
+### 19- How to list all open files by specified command?
 
-20- How can you list all network connections by port 22?
+### 20- How can you list all network connections by port 22?
 
-Advanced Linux system administrations questions and answers:
+#### Advanced Linux system administrations questions and answers:
 
 
 
-1-  Run a command that shows all lines except any lines starting with the a character "#" in a file?
-2-  How can you continuously monitor log files for errors?
-3-  How to automatically remove files older than 7 days by creating a cron job to run every night?
-4-  How to list/print all created users on the system and send(redirect) them to a file?
-5-  How would you list only the 2nd column from a file?
-6-  How to broadcast a message to all logged -in users?
-7-  How to create a user with no login access?
-8-  How to schedule a server reboot in 15 minutes?
-9-  How to find disk usage by the largest directories?
-10- How to prevent users from deleting other users files in a directory?
-11- How to display 10th line of a file only?
-12- Your server got hacked. Due to the amount of damage, the whole server needs to be restored.
-    How would you go about doing that?
-13- What necessary steps should be taken to enhance the security of a server
-    after the initial install?
-14- Which file is the most commonly known to check for log messages?
-15- How and why to disable ping?
-16- Explain the different fields in /etc/passwd?
-17- Which cammand can tell how long the system has been running?
-18- How to check if a port is listening?
-19- You got a ticket stating server is down, how would you troubleshoot?
-20- How to find all files in /bin with specified(755) permissions?
+### 1-  Run a command that shows all lines except any lines starting with the a character "#" in a file?
+### 2-  How can you continuously monitor log files for errors?
+### 3-  How to automatically remove files older than 7 days by creating a cron job to run every night?
+### 4-  How to list/print all created users on the system and send(redirect) them to a file?
+### 5-  How would you list only the 2nd column from a file?
+### 6-  How to broadcast a message to all logged -in users?
+### 7-  How to create a user with no login access?
+### 8-  How to schedule a server reboot in 15 minutes?
+### 9-  How to find disk usage by the largest directories?
+### 10- How to prevent users from deleting other users files in a directory?
+### 11- How to display 10th line of a file only?
+### 12- Your server got hacked. Due to the amount of damage, the whole server needs to be restored.How would you go about doing that?
+### 13- What necessary steps should be taken to enhance the security of a server after the initial install?
+### 14- Which file is the most commonly known to check for log messages?
+### 15- How and why to disable ping?
+### 16- Explain the different fields in /etc/passwd?
+### 17- Which cammand can tell how long the system has been running?
+### 18- How to check if a port is listening?
+### 19- You got a ticket stating server is down, how would you troubleshoot?
+### 20- How to find all files in /bin with specified(755) permissions?
 
 Part 2: 
 
-1- What is the default port & configuration file of SSH Server ?
+### 1- What is the default port & configuration file of SSH Server ?
 
-2- How to change the default ssh port in linux ?
+### 2- How to change the default ssh port in linux ?
 
-3- How to change Maximum allowed sessions through SSH?
+### 3- How to change Maximum allowed sessions through SSH?
 
-4- What is the configuration file of ssh client ?
+### 4- What is the configuration file of ssh client ?
 
-5- How to disable SSH root login in linux server ?
+### 5- How to disable SSH root login in linux server ?
 
-6- How to allow only specific users to ssh your linux server ?
+### 6- How to allow only specific users to ssh your linux server ?
 
-7- SCP and how its used?
+### 7- SCP and how its used?
 
-8- How to check SSH server’s Version ?
+### 8- How to check SSH server’s Version ?
 
-9- How to setup password less ssh authentication in Linux?
+### 9- How to setup password less ssh authentication in Linux?
 
 Part 3: 
 
-1- How to extend SWAP space?
+### 1- How to extend SWAP space?
 
-2- How to extend a logical volume?
+### 2- How to extend a logical volume?
 
-3- How to create a logical volume?
+### 3- How to create a logical volume?
 
-4- How to create a volume group?
+### 4- How to create a volume group?
 
-5- How to create a physical volume after the disk space has been added?
+### 5- How to create a physical volume after the disk space has been added?
 
-6- Is it possible to increase the logical volume on the fly?
+### 6- Is it possible to increase the logical volume on the fly?
 
-7- How to reduce the logical volume and is it possible to reduce it on the fly?
+### 7- How to reduce the logical volume and is it possible to reduce it on the fly?
 
-8-9- How to scan disks for existing volume group and how to scan a logical 
-volume from existing volume group?
+### 8-9- How to scan disks for existing volume group and how to scan a logical volume from existing volume group?
 
-10-11-12-13- How to activate, deactivate, disable/enable a logical volume and a volume group?
-     How to activated the logical volume which in deactivated state?
-     How to disable the volume group ? or Deactivate the volume group?
-     How to enable the volume group ? or Activate the volume group?
+### 10-11-12-13- How to activate, deactivate, disable/enable a logical volume and a volume group? How to activated the logical volume which in deactivated state? How to disable the volume group ? or Deactivate the volume group? How to enable the volume group ? or Activate the volume group?
 
-14- What is the default size of a physical extent in LVM?
+### 14- What is the default size of a physical extent in LVM?
 
-15-16-17- 
-How to list the available logical, physical volumes and see detailed volume group info on the system?
-How to list the available physical volumes in LVM?
-How to see the detailed volume group information?
+### 15-16-17- How to list the available logical, physical volumes and see detailed volume group info on the system?How to list the available physical volumes in LVM? How to see the detailed volume group information?
 
 Part 4: 
 
-1- How to find files that are over 10MB in size?
+### 1- How to find files that are over 10MB in size?
 
-2- How would would you run a command that shows all lines containing a character # in a file?
+### 2- How would would you run a command that shows all lines containing a character # in a file?
 
-3- How would you display all lines of a file with line numbers?
+### 3- How would you display all lines of a file with line numbers?
 
-4- How to find current system information such as the version or release info of your server?
+### 4- How to find current system information such as the version or release info of your server?
 
-5- Where are the files located for network interfaces?
+### 5- Where are the files located for network interfaces?
 
-6- Which command can you run to find if a certain package has been installed?
+### 6- Which command can you run to find if a certain package has been installed?
 
-7- How to find out total lines in a file without opening that file?
+### 7- How to find out total lines in a file without opening that file?
 
-8- How to find disk usage by the largest directories?
+### 8- How to find disk usage by the largest directories?
 
-9- How to find all directories named conf under root?
+### 9- How to find all directories named conf under root?
 
-10- How to find files not accessed in over 3 days?
+### 10- How to find files not accessed in over 3 days?
 
-11- How to view difference between 2 files?
+### 11- How to view difference between 2 files?
 
-12- What is the location of system configuration files that should be backed up regularly?
+### 12- What is the location of system configuration files that should be backed up regularly?
 
-13- What is the command to view all the currently logged in users?
+### 13- What is the command to view all the currently logged in users?
 
 Linux system administration Q&A
 
-1- Which 2 files contain default values when creating a user with useradd command?
+### 1- Which 2 files contain default values when creating a user with useradd command?
 
 Questions 2-8 covered in one lecture: 
 
-2- What is the command to create a user with a pre defined uid, shell and
+### 2- What is the command to create a user with a pre defined uid, shell and
  home directory?
-3- How to delete a user with his home directory?
-4- How to create a user specifying a primary/Secondary grp?
-5- How to change primary group for any user?
-6- How can you give a normal user all the root level privileges?
-7- How can you give sudo access to any user without asking him to
- provide password every time he runs a command?
-7- How to view the User's login and logout details?
-8- How to lock & unlock the User Account ?
+### 3- How to delete a user with his home directory?
+### 4- How to create a user specifying a primary/Secondary grp?
+### 5- How to change primary group for any user?
+### 6- How can you give a normal user all the root level privileges?
+### 7- How can you give sudo access to any user without asking him to provide password every time he runs a command?
+### 7- How to view the User's login and logout details?
+### 8- How to lock & unlock the User Account ?
 
 Questions 9-14 covered in one lecture: 
 
-9- What is the command to view and change the expiry date for any user?
-10- What are the fields of /etc/passwd file?
-11- What is the difference between .bash_profile and .bashrc?
-12- What are the details you get with finger command?
-13- Name 3 files which are automatically created inside any user's home directory when a user is 
-added?
-14- What is the command to view all the currently logged in users?
+### 9- What is the command to view and change the expiry date for any user?
+### 10- What are the fields of /etc/passwd file?
+### 11- What is the difference between .bash_profile and .bashrc?
+### 12- What are the details you get with finger command?
+### 13- Name 3 files which are automatically created inside any user's home directory when a user is added?
+### 14- What is the command to view all the currently logged in users?
 
 Linux basic system administration questions and answers: 
 
-1- Which 2 files contain the default values when creating a user with useradd command?
+### 1- Which 2 files contain the default values when creating a user with useradd command?
 
 Questions 2-8 covered in part 2: 
 
-2- What is the command to create a user with a pre defined uid, shell and  home directory?
+### 2- What is the command to create a user with a pre defined uid, shell and  home directory?
 
-3- How to delete a user with his home directory?
+### 3- How to delete a user with his home directory?
 
-4- How to create a user specifying a primary/Secondary grp?
+### 4- How to create a user specifying a primary/Secondary grp?
 
-5- How to change primary group for any user?
+### 5- How to change primary group for any user?
 
-6- How can you give a normal user all the root level privileges?
+### 6- How can you give a normal user all the root level privileges?
 
-7- How can you give sudo access to any user without asking him to  provide password every time he runs a command?
+### 7- How can you give sudo access to any user without asking him to  provide password every time he runs a command?
 
-7- How to view the User's login and logout details?
+### 7- How to view the User's login and logout details?
 
-8- How to lock & unlock the User Account ?
+### 8- How to lock & unlock the User Account ?
 
 Questions 9-14 covered in part 3: 
 
-9- What is the command to view and change the expiry date for any user?
+### 9- What is the command to view and change the expiry date for any user?
 
-10- What are the fields of /etc/passwd file?
+### 10- What are the fields of /etc/passwd file?
 
-11- What is the difference between .bash_profile and .bashrc?
+### 11- What is the difference between .bash_profile and .bashrc?
 
-12- What are the details you get with finger command?
+### 12- What are the details you get with finger command?
 
-13- Name 3 files which are automatically created inside any user's home directory when a user is  added?
+### 13- Name 3 files which are automatically created inside any user's home directory when a user is  added?
 
-14- What is the command to view all the currently logged in users?
+### 14- What is the command to view all the currently logged in users?
 
 Linux Basic Technical questions and answers 
 
-How to display hidden files?
+### How to display hidden files?
 
-Whats the difference between $ and # prompts on CLI?
+### Whats the difference between $ and # prompts on CLI?
 
-How to find an error in a file?
+### How to find an error in a file?
 
-How to make a directory?
+### How to make a directory?
 
-How to remove a directory?
+### How to remove a directory?
 
-How to create a file?
+### How to create a file?
 
-How to move a file?
+### How to move a file?
 
-How to delete a file?
+### How to delete a file?
 
-What is the default port # for DNS
+### What is the default port # for DNS
 
-What is the DNS package name?
+### What is the DNS package name?
 
-what is the configuration file for DNS and its location?
+### what is the configuration file for DNS and its location?
 
 List 3 types of file system?
 
-List any 4 Linux flavors?
+### List any 4 Linux flavors?
 
-How to log off from Linux system?
+### How to log off from Linux system?
 
-How to check if a package is installed?
+### How to check if a package is installed?
 
-How to check your previously typed in commands?
+### How to check your previously typed in commands?
 
-Where are zone files located for DNS?
+### Where are zone files located for DNS?
 
-What is the command to find your current directory?
+### What is the command to find your current directory?
 
-How to check file permissions?
+### How to check file permissions?
 
-How to find file type of a file?
+### How to find file type of a file?
 
-How to find where passwd command is located?
+### How to find where passwd command is located?
 
-what command is used for changing file permissions?
+### what command is used for changing file permissions?
 
-What command is used to read top/bottom part of a file?
+### What command is used to read top/bottom part of a file?
 
-How to check mtu, ip and MAC address?
+### How to check mtu, ip and MAC address?
 
-How to get help on certain commands?
+### How to get help on certain commands?
 
-How to find your host name?
+### How to find your host name?
 
-How to count total lines of a file?
+### How to count total lines of a file?
 
-What is the command to create a group?
+### What is the command to create a group?
 
-How to reboot a Linux machine with init command?
+### How to reboot a Linux machine with init command?
 
-Where are the user passwords saved?
+### Where are the user passwords saved?
 
-How to find running processes on your system?
+### How to find running processes on your system?
 
-where is the network time configuration file located?
+### where is the network time configuration file located?
 
-When is the last command used?
+### When is the last command used?
 
 
 
@@ -314,47 +303,47 @@ When is the last command used?
 
 Student suggested Videos
 
-19 new Lectures added to student suggested videos Section: 
+### 19 new Lectures added to student suggested videos Section: 
 
 
 
-Boot Process RHEL/CentOS 6 and 7                                                               
+### Boot Process RHEL/CentOS 6 and 7                                                               
 
-Run Levels                                                                                                            
+### Run Levels                                                                                                            
 
-Targets                                                                                                                  
+### Targets                                                                                                                  
 
-NIC Bonding                                                                                                        
+### NIC Bonding                                                                                                        
 
-What are Linux Distributions?                                                                            
+### What are Linux Distributions?                                                                            
 
-What are the advantages of using Linux?                                                        
+### What are the advantages of using Linux?                                                        
 
-What is Linux?                                                                                                    
+### What is Linux?                                                                                                    
 
-What is a virtual environment or virtualization?                                           
+### What is a virtual environment or virtualization?                                           
 
-How to download and install Oracle Virtual Box?                                           
+### How to download and install Oracle Virtual Box?                                           
 
-How to download and install Redhat Linux?                                                   
+### How to download and install Redhat Linux?                                                   
 
-How to download, install and connect through putty?                                   
+### How to download, install and connect through putty?                                   
 
-What are different ways of accessing a Linux Server?                                     
+### What are different ways of accessing a Linux Server?                                     
 
-What is absolute vs relative Path?                                                                      
+### What is absolute vs relative Path?                                                                      
 
-How to Count Words, Lines and Characters in a file?                                      
+### How to Count Words, Lines and Characters in a file?                                      
 
-How to display and set the server's Hostname?                                              
+### How to display and set the server's Hostname?                                              
 
-Explain vi editor basics?                                                                                        
+### Explain vi editor basics?                                                                                        
 
-How to list and modify System Timezone?                                                       
+### How to list and modify System Timezone?                                                       
 
-How to find help within Linux?                                                                            
+### How to find help within Linux?                                                                            
 
-How to compress and archive files?                                                                  
+### How to compress and archive files?                                                                  
 
 
 
@@ -364,29 +353,29 @@ New Section added: "Directory structure, Files, directories, permissions and mor
 
 
 
-Explain Linux Directory Structure                                                                        
+### Explain Linux Directory Structure                                                                        
 
-What are the common file types used in Linux?                                              
+### What are the common file types used in Linux?                                              
 
-How to create files and directories?                                                                    
+### How to create files and directories?                                                                    
 
-How to list files and directories?                                                                            
+### How to list files and directories?                                                                            
 
-How to display File Contents with cat, less, more and tail?                            
+### How to display File Contents with cat, less, more and tail?                            
 
-How to copy directories and files?                                                                         
+### How to copy directories and files?                                                                         
 
-How to move or rename directories and files?                                                   
-How to remove directories and files?                                                                  
+### How to move or rename directories and files?                                                   
+### How to remove directories and files?                                                                  
 
-What are the file and directory control Attributes?                                            
+### What are the file and directory control Attributes?                                            
 
-Basics of File and Directory Permissions                                                               
+### Basics of File and Directory Permissions                                                               
 
-How to modify file permissions?                                                                            
+### How to modify file permissions?                                                                            
 
-Explain default permissions and umask?                                                            
-How to modify file ownership and group membership?                                    
+### Explain default permissions and umask?                                                            
+### How to modify file ownership and group membership?                                    
 
-What are special permissions: setuid, setgid and sticky bit?                             
+### What are special permissions: setuid, setgid and sticky bit?                             
 
