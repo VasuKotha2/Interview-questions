@@ -1,4 +1,7 @@
 ## Directory	Description
+* Folder structure picture
+`https://files.mtstatic.com/site_7337/22042/0?Expires=1655370228&Signature=hDeHltcxyCKPWC0YO~QSIIgHX-PlJCCWyddt2i4N9R5nkoyNTe3An-cCtZwloklsalp~MrIRCcP61QInVEUyvWlGf5xfK9KviU9N6aImGUeh8GEBUgcPUJY7gvkvVF7KAhZ2D8gy4~VFiYS1tX-5d3~T3HcttAu0~Gl9kLStQRc_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA`
+
 * /	Primary hierarchy root and root directory of the entire file system hierarchy.
 * /bin	Essential command binaries that need to be available in single user mode; for all users, e.g., cat, ls, cp.
 * /boot	Boot loader files, e.g., kernels, initrd.
@@ -12,7 +15,7 @@ There has been controversy over the meaning of the name itself. In early version
 * /etc/xml	Configuration files, such as catalogs, for software that processes XML.
 * /home	Users' home directories, containing saved files, personal settings, etc.
 * /lib	Libraries essential for the binaries in /bin and /sbin .
-* /lib<qual>	Alternative format essential libraries. Such directories are optional, but if they exist, they have some requirements.
+* /lib <qual>	Alternative format essential libraries. Such directories are optional, but if they exist, they have some requirements.
 * /media	Mount points for removable media such as CD-ROMs (appeared in FHS-2.3 in 2004).
 */mnt	Temporarily mounted filesystems.
 * /opt	Optional application software packages.
